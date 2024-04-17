@@ -24,7 +24,7 @@ nav p{
     flex-grow: 1;
     justify-content: center;
     /* border: 1px white solid; */
-
+}
     header img{
         display: block;
         margin: auto;
@@ -32,17 +32,16 @@ nav p{
         width: auto;
     }
 
-    main,footer{
+    main, footer {
         color:white;
         display: flex;
-        width: 70px;
+        width: 70%;
         justify-content: center;
         margin: 30px auto;
-
     }
 
     article{
-        width: 60px;
+        width: 60%;
         padding: 10px;
     }
 
@@ -58,4 +57,32 @@ nav p{
         align-self: flex-end;
     }
 
-}
+    main ul li{
+        list-style-type: none;
+        padding: 10px;
+        margin: 10px;
+        border: solid white 1px;
+        text-align: center;
+    }
+    nav p:hover,
+    main ul li:hover {
+        background-color: white;
+        color: slategray;
+        font-size: 3em;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    p{
+        line-height: 2em;
+    }
+    nav p,
+    footer a {
+        color: darkgoldenrod;
+    }
