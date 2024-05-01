@@ -22,5 +22,9 @@
 }
 .pure-u-1-5 :hover {
     background-color: white;
+    box-sizing: border-box;
+}
 
+.em {
+    background-image: url(../images/w1.jpg);
 }

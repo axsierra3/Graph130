@@ -1,0 +1,78 @@
+body {
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    padding:100px; 
+
+}
+
+p{
+    font-size: 12px;
+}
+
+nav a {
+    flex-grow: 1;
+    color: white;
+    text-decoration: none;
+    border: solid white 1px;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a hover {
+    background-color: white;
+    color: black;
+}
+
+a {
+    color: red;
+}
+
+.zoe section {
+    padding: 5px;
+    box-sizing: border-box;
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+
+.em {
+    background-image: url(../images/w1.jpg);
+    font-size:12px;
+    line-height: 2em;
+    border: solid white .5em;
+}
+
+.rem {
+    background-image: url(../images/w5.jpg);
+    font-size:1.5rem;
+    border: dotted .5rem orangered;
+}
+.percentage {
+    background-image: url(../images/w3.jpg);
+    /* border: dashed blue 2%; */
+}
+
+.percentage p{
+    width: 75%;
+}
+
+.box {
+    background-image: url(../images/w4.jpg);
+}
+.vw {
+    background-image: url(../images/w5.jpg);
+    border:dashed blue 2vw;
+}
+
+.hero p{
+    width: 2vw;
+
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
