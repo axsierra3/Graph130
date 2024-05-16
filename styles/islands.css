@@ -16,7 +16,11 @@ main, header, nav ul, footer {
     grid-template-columns: auto auto auto;
     background-color: lightgray;
 }
-
+.logo1 {
+    height: 100px;
+    width: auto;
+    margin: 10px auto;
+}
 main section {
     border:solid white 1px;
     text-align: center;
