@@ -1,0 +1,33 @@
+:root {
+    font-family: 'Arial', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+   text-align: center;
+}
+
+header nav {
+    background-color: red; 
+    color: white;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+h3 {
+    text-align: center;
+    color: red;
+}
+
+section p {
+    display: flex;
+}
+
+section img {
+    display: block; 
+    /* Look into what display means */
+}
