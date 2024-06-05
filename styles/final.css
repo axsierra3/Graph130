@@ -1,10 +1,13 @@
+
+@media screen and (min-width:800px){
 :root {
     font-family: 'Arial', sans-serif;
     padding: 0;
     margin: 0;
 }
-
-
+main section{
+    display: inline-flex;
+}
 h1 {
    text-align: center;
 }
@@ -12,6 +15,21 @@ h1 {
 header nav {
     background-color: red; 
     color: white;
+    padding: 0;
+    display: inline-flex;
+}
+
+ul {
+    display: inline-flex;
+    color: black;
+    list-style: none;
+    padding: none;
+}
+
+li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0;
 }
 
 body {
@@ -29,5 +47,11 @@ section p {
 
 section img {
     display: block; 
-    /* Look into what display means */
+    height: 200px;
+
 }
+}
+
+@media screen and (min-width:400px){
+    
+    }
