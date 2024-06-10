@@ -10,25 +10,45 @@ main section{
 }
 h1 {
    text-align: center;
+   font-size: 22px;
 }
 
 header nav {
     background-color: red; 
     color: white;
-    padding: 0;
-    display: inline-flex;
+    padding: none;
+    align-items: center;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+.header-content {
+    display: flex;
+    align-items: center;
+    height: 25px;
+}
+.bicep-icon {
+    margin-right: 10px;
+    height: 25px;
+    
 }
 
 ul {
     display: inline-flex;
+    align-items: center;
+   
     color: black;
     list-style: none;
     padding: none;
 }
 
 li {
-    padding-left: 20px;
+    padding-left: 50px;
     padding-right: 20px;
+    margin: auto;
+    align-items: center;
     padding-top: 0;
 }
 
@@ -53,5 +73,73 @@ section img {
 }
 
 @media screen and (min-width:400px){
+    :root {
+        font-family: 'Arial', sans-serif;
+        padding: 0;
+        margin: 0;
+    }
+  
+    h1 {
+       text-align: center;
+       font-size: 22px;
+    }
     
+    header nav {
+        background-color: red; 
+        color: white;
+        padding: none;
+        align-items: center;
+    }
+    .header-container {
+        display: flex;
+        justify-content: space-between;
+        /* align-items: center; */
+    }
+    .header-content {
+        display: flex;
+        align-items: center;
+        height: 25px;
+    }
+    .bicep-icon {
+        margin-right: 10px;
+        height: 25px;
+        
+    }
+    
+    ul {
+        display: inline-flex;
+        align-items: center;
+       
+        color: black;
+        list-style: none;
+        padding: none;
+    }
+    
+    li {
+        padding-left: 50px;
+        padding-right: 20px;
+        margin: auto;
+        align-items: center;
+        padding-top: 0;
+    }
+    
+    body {
+        background-color: black;
+        color: white;
+    }
+    h3 {
+        text-align: center;
+        color: red;
+    }
+    
+    section p {
+        display: flex;
+    }
+    
+    section img {
+       padding-left: 130px;
+        display: block; 
+        height: 200px;
+    
+    }
     }
